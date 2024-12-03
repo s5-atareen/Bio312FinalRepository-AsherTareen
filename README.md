@@ -98,6 +98,7 @@ Outputs:
 
 SUMF.homologsf.al.fas.treefile.rec.0.svg
 SUMF.homologsf.al.fas.treefile.rec.0.pdf
+
 **5. Protein Domain Analysis (with RPS-BLAST)**
 a. Prepare Sequence File:
 sed 's/*//' ~/lab04-$MYGIT/SUMF/SUMF.homologs.fas > ~/lab08-$MYGIT/SUMF/SUMF.homologs.fas
