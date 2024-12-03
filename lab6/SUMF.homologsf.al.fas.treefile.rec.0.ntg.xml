@@ -1,0 +1,1025 @@
+<recPhylo>
+  <spTree>
+    <phylogeny>
+      <clade>
+        <name>Gnathostomata</name>
+        <clade>
+          <name>Euteleostomi</name>
+          <clade>
+            <name>Tetrapoda</name>
+            <clade>
+              <name>Amniota</name>
+              <clade>
+                <name>Boreoeutheria</name>
+                <clade>
+                  <name>Laurasiatheria</name>
+                  <clade>
+                    <name>E.caballus</name>
+                  </clade>
+                  <clade>
+                    <name>F.catus</name>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>H.sapiens</name>
+                </clade>
+              </clade>
+              <clade>
+                <name>Sauria</name>
+                <clade>
+                  <name>Archelosauria</name>
+                  <clade>
+                    <name>G.gallus</name>
+                  </clade>
+                  <clade>
+                    <name>C.mydas</name>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>S.townsendi</name>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>X.laevis</name>
+            </clade>
+          </clade>
+          <clade>
+            <name>Clupeocephala</name>
+            <clade>
+              <name>Euteleosteomorpha</name>
+              <clade>
+                <name>G.aculeatus</name>
+              </clade>
+              <clade>
+                <name>S.salar</name>
+              </clade>
+            </clade>
+            <clade>
+              <name>D.rerio</name>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>C.carcharias</name>
+        </clade>
+      </clade>
+    </phylogeny>
+  </spTree>
+  <recGeneTree>
+    <phylogeny rooted="true">
+      <clade>
+        <name>n87</name>
+        <confidence>1.0</confidence>
+        <branch_length>1.0</branch_length>
+        <eventsRec>
+          <duplication speciesLocation="Gnathostomata"></duplication>
+        </eventsRec>
+        <clade>
+          <name>n83</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.0284873718</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Gnathostomata"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n81</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.5014324638</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Gnathostomata"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n51</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.1273154039</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Gnathostomata"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n49</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0503007112</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r424</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>n47</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.237415458</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Clupeocephala"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>n45</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1381383665</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>S.salar_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2_iso</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.3133151199</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="S.salar" geneName="S.salar_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2_iso"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>G.aculeatus_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.2959657638</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>D.rerio_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2_pre</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.3323397243</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="D.rerio" geneName="D.rerio_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2_pre"></leaf>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Tetrapoda*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Tetrapoda"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias_sumf2_inactive_Calphaformylglycinegenerating_enzyme_</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.6190612996</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="C.carcharias" geneName="C.carcharias_sumf2_inactive_Calphaformylglycinegenerating_enzyme_"></leaf>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>r430</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r428</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r426</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Tetrapoda"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>X.laevis_LOC108708335_inactive_Calphaformylglycinegenerating_enzy</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.499878706</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="X.laevis" geneName="X.laevis_LOC108708335_inactive_Calphaformylglycinegenerating_enzy"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>Amniota*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Amniota"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Clupeocephala*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Clupeocephala"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="C.carcharias"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>n80</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.0439591474</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Gnathostomata"></duplication>
+              </eventsRec>
+              <clade>
+                <name>r440</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r438</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r436</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Tetrapoda"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r434</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Amniota"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n54</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1030714731</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Sauria"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>S.townsendi_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.4300412736</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="S.townsendi" geneName="S.townsendi_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>r432</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Archelosauria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>G.gallus_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_is</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.2352188792</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="G.gallus" geneName="G.gallus_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_is"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>C.mydas*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="C.mydas"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Boreoeutheria*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Boreoeutheria"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>X.laevis*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="X.laevis"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Clupeocephala*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Clupeocephala"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="C.carcharias"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>n79</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0613947874</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Gnathostomata"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n77</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>2.393199264</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="Gnathostomata"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>n75</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.1125121664</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Gnathostomata"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>n65</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.1854389895</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Gnathostomata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n63</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0571424853</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleostomi"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n61</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.2816837226</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Clupeocephala"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>n59</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0867535891</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>n57</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0933690162</branch_length>
+                              <eventsRec>
+                                <duplication speciesLocation="S.salar"></duplication>
+                              </eventsRec>
+                              <clade>
+                                <name>S.salar_sumf1_sulfatasemodifying_factor_1_precursor</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.1592624826</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="S.salar" geneName="S.salar_sumf1_sulfatasemodifying_factor_1_precursor"></leaf>
+                                </eventsRec>
+                              </clade>
+                              <clade>
+                                <name>S.salar_LOC106583142_LOW_QUALITY_PROTEIN_formylglycinegenerating_</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.7919390435</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="S.salar" geneName="S.salar_LOC106583142_LOW_QUALITY_PROTEIN_formylglycinegenerating_"></leaf>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>G.aculeatus_sumf1_formylglycinegenerating_enzyme_isoform_X1</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.498029982</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_sumf1_formylglycinegenerating_enzyme_isoform_X1"></leaf>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>D.rerio_sumf1_sulfatasemodifying_factor_1_isoform_X1</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.5611376311</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="D.rerio" geneName="D.rerio_sumf1_sulfatasemodifying_factor_1_isoform_X1"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>r442</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Tetrapoda"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>X.laevis_sumf1.L_formylglycinegenerating_enzyme</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.301257306</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="X.laevis" geneName="X.laevis_sumf1.L_formylglycinegenerating_enzyme"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>Amniota*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Amniota"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>C.carcharias_sumf1_formylglycinegenerating_enzyme_isoform_X2</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.8307946267</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="C.carcharias" geneName="C.carcharias_sumf1_formylglycinegenerating_enzyme_isoform_X2"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>r456</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Gnathostomata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r454</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleostomi"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r452</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Tetrapoda"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>n74</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0549304808</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Amniota"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>n68</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0346861593</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Sauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>S.townsendi_SUMF1_formylglycinegenerating_enzyme</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.1516520107</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="S.townsendi" geneName="S.townsendi_SUMF1_formylglycinegenerating_enzyme"></leaf>
+                                </eventsRec>
+                              </clade>
+                              <clade>
+                                <name>r444</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Archelosauria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>C.mydas_SUMF1_formylglycinegenerating_enzyme_isoform_X4</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.2906363393</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="C.mydas" geneName="C.mydas_SUMF1_formylglycinegenerating_enzyme_isoform_X4"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>G.gallus*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="G.gallus"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>n73</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.2363550734</branch_length>
+                              <eventsRec>
+                                <duplication speciesLocation="Boreoeutheria"></duplication>
+                              </eventsRec>
+                              <clade>
+                                <name>n71</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.0247831185</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Boreoeutheria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>r446</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <speciation speciesLocation="Laurasiatheria"></speciation>
+                                  </eventsRec>
+                                  <clade>
+                                    <name>F.catus_SUMF1_formylglycinegenerating_enzyme_isoform_X2</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>0.0396196708</branch_length>
+                                    <eventsRec>
+                                      <leaf speciesLocation="F.catus" geneName="F.catus_SUMF1_formylglycinegenerating_enzyme_isoform_X2"></leaf>
+                                    </eventsRec>
+                                  </clade>
+                                  <clade>
+                                    <name>E.caballus*LOST</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>1.0</branch_length>
+                                    <eventsRec>
+                                      <loss speciesLocation="E.caballus"></loss>
+                                    </eventsRec>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <name>H.sapiens_SUMF1_formylglycinegenerating_enzyme_isoform_X4</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.2145739684</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="H.sapiens" geneName="H.sapiens_SUMF1_formylglycinegenerating_enzyme_isoform_X4"></leaf>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>r450</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Boreoeutheria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>r448</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <speciation speciesLocation="Laurasiatheria"></speciation>
+                                  </eventsRec>
+                                  <clade>
+                                    <name>E.caballus_SUMF1_sulfatasemodifying_factor_1_isoform_X1</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>0.0263787088</branch_length>
+                                    <eventsRec>
+                                      <leaf speciesLocation="E.caballus" geneName="E.caballus_SUMF1_sulfatasemodifying_factor_1_isoform_X1"></leaf>
+                                    </eventsRec>
+                                  </clade>
+                                  <clade>
+                                    <name>F.catus*LOST</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>1.0</branch_length>
+                                    <eventsRec>
+                                      <loss speciesLocation="F.catus"></loss>
+                                    </eventsRec>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <name>H.sapiens*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="H.sapiens"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>X.laevis*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="X.laevis"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Clupeocephala*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Clupeocephala"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>C.carcharias*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="C.carcharias"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>r468</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Gnathostomata"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r466</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Euteleostomi"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r464</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Tetrapoda"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r462</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Amniota"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r460</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Sauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>r458</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Archelosauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>G.gallus_SUMF1_LOW_QUALITY_PROTEIN_formylglycinegenerating_enzyme</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.1042468211</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="G.gallus" geneName="G.gallus_SUMF1_LOW_QUALITY_PROTEIN_formylglycinegenerating_enzyme"></leaf>
+                                </eventsRec>
+                              </clade>
+                              <clade>
+                                <name>C.mydas*LOST</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <loss speciesLocation="C.mydas"></loss>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>S.townsendi*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="S.townsendi"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Boreoeutheria*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Boreoeutheria"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>X.laevis*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="X.laevis"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Clupeocephala*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Clupeocephala"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>C.carcharias*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="C.carcharias"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>r480</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Gnathostomata"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r478</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Euteleostomi"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r476</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Tetrapoda"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r474</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Amniota"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r472</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Sauria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r470</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Archelosauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>C.mydas_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_iso</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.1782096056</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="C.mydas" geneName="C.mydas_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_iso"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>G.gallus*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="G.gallus"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>S.townsendi*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="S.townsendi"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Boreoeutheria*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Boreoeutheria"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>X.laevis*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="X.laevis"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Clupeocephala*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Clupeocephala"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>C.carcharias*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="C.carcharias"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r492</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Gnathostomata"></speciation>
+            </eventsRec>
+            <clade>
+              <name>r490</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Euteleostomi"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r488</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Tetrapoda"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r486</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Amniota"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r484</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Boreoeutheria"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r482</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Laurasiatheria"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>F.catus_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_iso</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.1071566035</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="F.catus" geneName="F.catus_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_iso"></leaf>
+                        </eventsRec>
+                      </clade>
+                      <clade>
+                        <name>E.caballus*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="E.caballus"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>H.sapiens*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="H.sapiens"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Sauria*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Sauria"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>X.laevis*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="X.laevis"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Clupeocephala*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Clupeocephala"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>C.carcharias*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="C.carcharias"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>E.caballus_SUMF2_sulfatasemodifying_factor_2_isoform_X4</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.0417956309</branch_length>
+          <eventsRec>
+            <leaf speciesLocation="E.caballus" geneName="E.caballus_SUMF2_sulfatasemodifying_factor_2_isoform_X4"></leaf>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>F.catus*LOST</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.0</branch_length>
+          <eventsRec>
+            <loss speciesLocation="F.catus"></loss>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>H.sapiens_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_i</name>
+          <confidence>1.0</confidence>
+          <branch_length>0.3601202731</branch_length>
+          <eventsRec>
+            <leaf speciesLocation="H.sapiens" geneName="H.sapiens_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_i"></leaf>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>Sauria*LOST</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.0</branch_length>
+          <eventsRec>
+            <loss speciesLocation="Sauria"></loss>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>X.laevis*LOST</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.0</branch_length>
+          <eventsRec>
+            <loss speciesLocation="X.laevis"></loss>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>Clupeocephala*LOST</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.0</branch_length>
+          <eventsRec>
+            <loss speciesLocation="Clupeocephala"></loss>
+          </eventsRec>
+        </clade>
+        <clade>
+          <name>C.carcharias*LOST</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.0</branch_length>
+          <eventsRec>
+            <loss speciesLocation="C.carcharias"></loss>
+          </eventsRec>
+        </clade>
+      </clade>
+    </phylogeny>
+  </recGeneTree>
+</recPhylo>

@@ -1,0 +1,236 @@
+IQ-TREE multicore version 2.3.6 for Linux x86 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    ip-172-31-21-140.ec2.internal (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas -bb 1000 -nt 2
+Seed:    755624 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 25 15:11:39 2024
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas ... Fasta format detected
+Reading fasta file: done in 0.000307521 secs using 99.18% CPU
+Alignment most likely contains protein sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 23 sequences with 621 columns, 483 distinct patterns
+254 parsimony-informative, 99 singleton sites, 268 constant sites
+                                                                   Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.9194e-05 secs using 95.91% CPU
+   1  H.sapiens_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_i   43.32%    passed     28.68%
+   2  G.aculeatus_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2   49.28%    passed     68.07%
+   3  E.caballus_SUMF2_sulfatasemodifying_factor_2_isoform_X4             47.50%    passed     45.63%
+   4  F.catus_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_iso   51.21%    passed     79.82%
+   5  D.rerio_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2_pre   51.85%    passed     94.10%
+   6  S.salar_sumf2_inactive_Calphaformylglycinegenerating_enzyme_2_iso   51.37%    passed     55.56%
+   7  X.laevis_LOC108708335_inactive_Calphaformylglycinegenerating_enzy   51.05%    passed     28.44%
+   8  G.gallus_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_is   49.92%    passed     99.58%
+   9  C.carcharias_sumf2_inactive_Calphaformylglycinegenerating_enzyme_   48.15%    passed     70.19%
+  10  C.mydas_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2_iso   48.95%    passed     96.44%
+  11  S.townsendi_SUMF2_inactive_Calphaformylglycinegenerating_enzyme_2   48.63%    passed     85.15%
+  12  S.salar_LOC106583142_LOW_QUALITY_PROTEIN_formylglycinegenerating_   64.41%    failed      4.94%
+  13  C.mydas_SUMF1_formylglycinegenerating_enzyme_isoform_X4             35.59%    passed     71.39%
+  14  H.sapiens_SUMF1_formylglycinegenerating_enzyme_isoform_X4           27.86%    passed     87.00%
+  15  D.rerio_sumf1_sulfatasemodifying_factor_1_isoform_X1                46.05%    passed     70.38%
+  16  C.carcharias_sumf1_formylglycinegenerating_enzyme_isoform_X2        31.88%    passed     50.89%
+  17  X.laevis_sumf1.L_formylglycinegenerating_enzyme                     42.51%    passed     94.98%
+  18  S.salar_sumf1_sulfatasemodifying_factor_1_precursor                 38.97%    passed     55.69%
+  19  G.aculeatus_sumf1_formylglycinegenerating_enzyme_isoform_X1         42.35%    passed     84.75%
+  20  E.caballus_SUMF1_sulfatasemodifying_factor_1_isoform_X1             39.77%    passed     85.41%
+  21  F.catus_SUMF1_formylglycinegenerating_enzyme_isoform_X2             39.45%    passed     92.41%
+  22  G.gallus_SUMF1_LOW_QUALITY_PROTEIN_formylglycinegenerating_enzyme   43.16%    passed     94.15%
+  23  S.townsendi_SUMF1_formylglycinegenerating_enzyme                    53.95%    passed     93.45%
+WARNING: 6 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                               45.53%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -9493.620
+Optimal log-likelihood: -9493.423
+Proportion of invariable sites: 0.111
+Gamma shape alpha: 0.914
+Parameters optimization took 1 rounds (0.075 sec)
+Time for fast ML tree search: 0.654 seconds
+
+NOTE: ModelFinder requires 19 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 621 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            10026.667    43  20139.334    20145.892    20329.881
+  2  LG+I          9825.329     44  19738.658    19745.533    19933.636
+  3  LG+G4         9490.619     44  19069.237    19076.112    19264.216
+  4  LG+I+G4       9493.265     45  19076.530    19083.730    19275.940
+  5  LG+R2         9571.370     45  19232.739    19239.939    19432.149
+  6  LG+R3         9503.607     47  19101.213    19109.088    19309.486
+  7  LG+R4         9482.917     49  19063.835    19072.416    19280.970
+  8  LG+R5         9482.732     51  19067.464    19076.786    19293.462
+ 14  LG+I+R2       9520.864     46  19133.728    19141.261    19337.569
+ 15  LG+I+R3       9483.211     48  19062.421    19070.645    19275.125
+ 16  LG+I+R4       9479.961     50  19059.923    19068.870    19281.489
+ 25  LG+F+G4       9467.181     63  19060.363    19074.840    19339.537
+ 47  WAG+G4        9444.328     44  18976.656    18983.531    19171.634
+ 69  WAG+F+G4      9447.186     63  19020.372    19034.850    19299.546
+ 91  JTT+G4        9424.902     44  18937.804    18944.679    19132.782
+113  JTT+F+G4      9439.125     63  19004.249    19018.727    19283.423
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+135  Q.pfam+G4     9469.545     44  19027.090    19033.965    19222.069
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+157  Q.pfam+F+G4   9461.270     63  19048.540    19063.018    19327.714
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+179  Q.bird+G4     9543.464     44  19174.927    19181.802    19369.906
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+201  Q.bird+F+G4   9575.488     63  19276.977    19291.455    19556.151
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+223  Q.mammal+G4   9487.050     44  19062.101    19068.976    19257.079
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+245  Q.mammal+F+G4 9523.492     63  19172.983    19187.461    19452.157
+267  Q.insect+G4   9531.391     44  19150.783    19157.658    19345.761
+289  Q.insect+F+G4 9478.772     63  19083.543    19098.021    19362.717
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+311  Q.plant+G4    9500.653     44  19089.306    19096.181    19284.285
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+333  Q.plant+F+G4  9480.779     63  19087.559    19102.036    19366.733
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+355  Q.yeast+G4    9579.164     44  19246.327    19253.202    19441.306
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+377  Q.yeast+F+G4  9484.217     63  19094.434    19108.912    19373.608
+399  JTTDCMut+G4   9423.462     44  18934.923    18941.798    19129.902
+421  JTTDCMut+F+G4 9436.674     63  18999.348    19013.825    19278.522
+443  DCMut+G4      9518.242     44  19124.484    19131.359    19319.462
+465  DCMut+F+G4    9528.900     63  19183.800    19198.278    19462.974
+487  VT+G4         9459.449     44  19006.899    19013.774    19201.877
+509  VT+F+G4       9453.495     63  19032.990    19047.467    19312.164
+531  PMB+G4        9515.326     44  19118.651    19125.526    19313.630
+553  PMB+F+G4      9516.224     63  19158.449    19172.926    19437.623
+575  Blosum62+G4   9550.221     44  19188.441    19195.316    19383.420
+597  Blosum62+F+G4 9516.757     63  19159.515    19173.992    19438.688
+619  Dayhoff+G4    9518.256     44  19124.512    19131.387    19319.490
+641  Dayhoff+F+G4  9528.979     63  19183.959    19198.436    19463.133
+663  mtREV+G4      9985.347     44  20058.693    20065.568    20253.672
+685  mtREV+F+G4    9560.430     63  19246.859    19261.337    19526.033
+707  mtART+G4      10196.900    44  20481.801    20488.676    20676.779
+729  mtART+F+G4    9727.471     63  19580.942    19595.420    19860.116
+751  mtZOA+G4      9944.580     44  19977.160    19984.035    20172.138
+773  mtZOA+F+G4    9616.078     63  19358.156    19372.634    19637.330
+795  mtMet+G4      10073.553    44  20235.106    20241.981    20430.085
+817  mtMet+F+G4    9583.462     63  19292.925    19307.402    19572.099
+839  mtVer+G4      10087.995    44  20263.989    20270.864    20458.968
+861  mtVer+F+G4    9679.368     63  19484.737    19499.214    19763.911
+883  mtInv+G4      10180.220    44  20448.441    20455.316    20643.419
+905  mtInv+F+G4    9551.311     63  19228.622    19243.099    19507.796
+927  mtMAM+G4      10216.829    44  20521.658    20528.533    20716.636
+949  mtMAM+F+G4    9749.443     63  19624.886    19639.364    19904.060
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+971  FLAVI+G4      9737.205     44  19562.410    19569.285    19757.388
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+993  FLAVI+F+G4    9683.353     63  19492.705    19507.183    19771.879
+1015  HIVb+G4       9606.736     44  19301.471    19308.346    19496.450
+1037  HIVb+F+G4     9561.644     63  19249.288    19263.766    19528.462
+1059  HIVw+G4       9963.232     44  20014.463    20021.338    20209.442
+1081  HIVw+F+G4     9751.115     63  19628.230    19642.708    19907.404
+1103  FLU+G4        9633.811     44  19355.621    19362.496    19550.600
+1125  FLU+F+G4      9525.476     63  19176.951    19191.429    19456.125
+1147  rtREV+G4      9543.024     44  19174.049    19180.924    19369.027
+1169  rtREV+F+G4    9486.994     63  19099.987    19114.465    19379.161
+1191  cpREV+G4      9502.066     44  19092.132    19099.007    19287.111
+1213  cpREV+F+G4    9457.771     63  19041.542    19056.020    19320.716
+Akaike Information Criterion:           JTTDCMut+G4
+Corrected Akaike Information Criterion: JTTDCMut+G4
+Bayesian Information Criterion:         JTTDCMut+G4
+Best-fit model: JTTDCMut+G4 chosen according to BIC
+
+All model information printed to /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.model.gz
+CPU time for ModelFinder: 42.530 seconds (0h:0m:42s)
+Wall-clock time for ModelFinder: 21.668 seconds (0h:0m:21s)
+Generating 1000 samples for ultrafast bootstrap (seed: 755624)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9425.907
+2. Current log-likelihood: -9423.560
+Optimal log-likelihood: -9423.480
+Gamma shape alpha: 0.597
+Parameters optimization took 2 rounds (0.196 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0339143 secs using 197.9% CPU
+Computing ML distances took 0.034461 sec (of wall-clock time) 0.067322 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.56e-05 secs using 242.1% CPU
+Computing RapidNJ tree took 0.000388 sec (of wall-clock time) 0.000419 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -9463.237
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.453 second
+Computing log-likelihood of 98 initial trees ... 2.543 seconds
+Current best score: -9423.480
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9421.476
+Iteration 10 / LogL: -9423.078 / Time: 0h:0m:28s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -9419.094
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -9418.714
+Iteration 20 / LogL: -9421.670 / Time: 0h:0m:33s
+Finish initializing candidate tree set (8)
+Current best tree score: -9418.714 / CPU time: 11.426
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -9419.138 / Time: 0h:0m:37s (0h:0m:44s left)
+Iteration 40 / LogL: -9418.916 / Time: 0h:0m:41s (0h:0m:37s left)
+Iteration 50 / LogL: -9418.769 / Time: 0h:0m:46s (0h:0m:31s left)
+Log-likelihood cutoff on original alignment: -9447.597
+Iteration 60 / LogL: -9419.635 / Time: 0h:0m:49s (0h:0m:25s left)
+Iteration 70 / LogL: -9419.149 / Time: 0h:0m:53s (0h:0m:19s left)
+Iteration 80 / LogL: -9419.365 / Time: 0h:0m:57s (0h:0m:15s left)
+Iteration 90 / LogL: -9419.104 / Time: 0h:1m:1s (0h:0m:10s left)
+Iteration 100 / LogL: -9418.716 / Time: 0h:1m:5s (0h:0m:5s left)
+Log-likelihood cutoff on original alignment: -9447.597
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -9418.982 / Time: 0h:1m:9s (0h:0m:39s left)
+TREE SEARCH COMPLETED AFTER 114 ITERATIONS / Time: 0h:1m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9418.714
+Optimal log-likelihood: -9418.708
+Gamma shape alpha: 0.599
+Parameters optimization took 1 rounds (0.062 sec)
+BEST SCORE FOUND : -9418.708
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.splits.nex
+Total tree length: 12.235
+
+Total number of iterations: 114
+CPU time used for tree search: 94.015 sec (0h:1m:34s)
+Wall-clock time used for tree search: 48.479 sec (0h:0m:48s)
+Total CPU time used: 137.578 sec (0h:2m:17s)
+Total wall-clock time used: 70.739 sec (0h:1m:10s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.splits.nex...
+23 taxa and 127 splits.
+Consensus tree written to /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.contree
+Reading input trees file /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.contree
+Log-likelihood of consensus tree: -9418.707
+
+Analysis results written to: 
+  IQ-TREE report:                /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.iqtree
+  Maximum-likelihood tree:       /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.treefile
+  Likelihood distances:          /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.splits.nex
+  Consensus tree:                /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.contree
+  Screen log file:               /home/bio312-user/lab05-s5-atareen/SUMF/SUMF.homologsf.al.fas.log
+
+Date and Time: Wed Sep 25 15:12:50 2024
