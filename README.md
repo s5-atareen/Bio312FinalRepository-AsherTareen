@@ -45,13 +45,13 @@ Use MUSCLE to align sequences:
 muscle -align SUMF.fas -output SUMF.aligned.fas
 Output: SUMF.aligned.fas
 
-Phylogenetic Tree Construction and Visualization
+**3.Phylogenetic Tree Construction and Visualization**
 a. Phylogenetic Tree Construction:
 Build a maximum likelihood tree with 1,000 bootstraps:
 iqtree -s SUMF.aligned.fas -bb 1000 -nt 2
 Outputs:
 
-**3. SUMF.treefile**
+SUMF.treefile
 SUMF.treefile.log
 SUMF.treefile.iqtree
 b. Midpoint Rooting:
@@ -89,8 +89,7 @@ python2.7 ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py
 -g ~/lab06-$MYGIT/SUMF/SUMF.homologsf.al.fas.treefile.rec.0.ntg
 --include.species
 
-e. Visualization:
-**5. Generate reconciliation visualization with thirdkind:**
+e. Generate reconciliation visualization with thirdkind:
 thirdkind -Iie -D 40 -f ~/lab06-$MYGIT/SUMF/SUMF.homologsf.al.fas.treefile.rec.0.ntg.xml
 -o ~/lab06-$MYGIT/SUMF/SUMF.homologsf.al.fas.treefile.rec.0.svg
 convert -density 150 ~/lab06-$MYGIT/SUMF/SUMF.homologsf.al.fas.treefile.rec.0.svg
@@ -99,7 +98,7 @@ Outputs:
 
 SUMF.homologsf.al.fas.treefile.rec.0.svg
 SUMF.homologsf.al.fas.treefile.rec.0.pdf
-**6. Protein Domain Analysis (with RPS-BLAST)**
+**5. Protein Domain Analysis (with RPS-BLAST)**
 a. Prepare Sequence File:
 sed 's/*//' ~/lab04-$MYGIT/SUMF/SUMF.homologs.fas > ~/lab08-$MYGIT/SUMF/SUMF.homologs.fas
 Output: SUMF.homologs.fas
